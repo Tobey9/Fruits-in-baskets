@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+body {
+  font-family: "Nerko one", sans-serif;
+  text-align: center;
+  background: linear-gradient(#4ade80, #93c5fd);
+  color: #16a34a;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.baskets {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.basket {
+  background: #fbbf24;
+  width: 500px;
+  height: 300px;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 1.8rem;
+  border: 3px solid #042f2e;
+  color: #16a34a;
+  background: ##86efac;
+  border-radius: 5px;
+}
